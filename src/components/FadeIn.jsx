@@ -9,7 +9,8 @@ const FadeIn = ({ children }) => {
             ([entry]) => {
                 if (entry.isIntersecting) {
                     setIsVisible(true);
-                    observer.disconnect(); // Stop observing once it has become visible
+                } else {
+                    setIsVisible(false); // Reset visibility when it's out of view
                 }
             },
             {

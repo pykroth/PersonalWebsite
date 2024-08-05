@@ -1,14 +1,14 @@
 import React from 'react';
 import portfolio from '../Data/portfolio';
 import PortfolioItem from './PortfolioItem';
-import FadeIn from './FadeIn';
+
 function Portfolio() {
    return (
-      <div className="flex flex-col items-center justify-center p-4 md:p-8 max-w-screen-lg mx-auto h-screen">
-         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+      <div className="flex flex-col md:flex-row items-center justify-center p-8 mb-20"> {/* Added mb-20 for bottom margin */}
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {portfolio.map(project => (
                <PortfolioItem 
-                  key={project.title} // Ensure you have a unique key for each item
+                  key={project.title}
                   imgUrl={project.imgUrl}
                   title={project.title}
                   stack={project.stack}
@@ -17,7 +17,7 @@ function Portfolio() {
             ))}
          </div>
       </div>
-   )
+   );
 }
 
 export default Portfolio;

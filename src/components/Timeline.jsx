@@ -5,11 +5,12 @@ import Title from './Title';
 
 function Timeline() {
    return (
-      <div className="flex flex-col md:flex-row justify-center my-20 h-screen">
+      <div className="flex flex-col items-start justify-center my-20"> {/* Ensure items are left-aligned */}
          <div className="w-full md:w-7/12">
-            <Title>Timeline</Title>
-            {timeline.map(item => (
+            <Title className="mb-4">Timeline</Title>
+            {timeline.map((item, index) => (
                <TimelineItem 
+                  key={index}
                   year={item.year}
                   title={item.title}
                   duration={item.duration}
@@ -18,7 +19,7 @@ function Timeline() {
             ))}
          </div>
       </div>
-   )
+   );
 }
 
 export default Timeline;
