@@ -14,7 +14,7 @@ export default [
     },
     {
         title: "Hivemind",
-        imgUrl: '',
+        imgUrl: '/assets/Hivemind.png',
         stack: ['C#', 'Unity', 'ShaderLabs', 'Github/Git'],
         link: 'https://github.com/ReiltasGG/HivemindGame'
     },
@@ -26,7 +26,7 @@ export default [
     },
     {
         title: "Folder Cleaner",
-        imgUrl: '',
+        imgUrl: '/assets/foldercleaner.png',
         stack: ['Python', 'Github/Git'],
         link: ' https://github.com/pykroth/Folder-Clean-Project'
     },
@@ -38,7 +38,7 @@ export default [
     },
     {
         title: "This Website",
-        imgUrl: '',
+        imgUrl: '/assets/portfolio.png',
         stack: ['HTML', 'CSS', 'JavaScript', 'React'],
         link: 'https://github.com/pykroth/2D-Platform-Fighter'
     },

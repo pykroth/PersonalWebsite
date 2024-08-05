@@ -51,7 +51,7 @@ function Footer() {
 						</a>
 
 						<a 
-							href="/path-to-your-resume.pdf"
+							 href="/assets/NewResume.pdf"
 							className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
 							target="_blank"
 							rel="noopener noreferrer"

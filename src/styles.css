@@ -11,3 +11,37 @@
     transform: none;
     visibility: visible;
 }
+
+.scrollable-container {
+    height: 200px;
+    /* Set a height to allow for scrolling */
+    overflow: auto;
+    /* Enable scrolling */
+}
+
+
+/* Custom Scrollbar Styles for WebKit Browsers */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust width of the scrollbar */
+    height: 10px;
+    /* Adjust height of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Dark gray color for the scrollbar thumb */
+    border-radius: 5px;
+    /* Adjust roundness for aesthetics */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+    /* Darker gray when hovering over the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* Background color of the scrollbar track */
+}

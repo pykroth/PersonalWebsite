@@ -6,6 +6,7 @@ import Intros from './components/Intros';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import FadeIn from './components/FadeIn';
+import Title from './components/Title';
 function App() {
   
   
@@ -18,6 +19,7 @@ function App() {
         <Intros />
         </FadeIn>
         <FadeIn>
+        <Title className="mb-4">Projects</Title>
                         <Portfolio />
                     </FadeIn>
                     <FadeIn>
