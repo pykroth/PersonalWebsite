@@ -7,7 +7,7 @@ function Timeline() {
    return (
       <div className="flex flex-col items-start justify-center my-20"> {/* Ensure items are left-aligned */}
          <div className="w-full md:w-7/12">
-            <Title className="mb-4">Timeline</Title>
+           
             {timeline.map((item, index) => (
                <TimelineItem 
                   key={index}

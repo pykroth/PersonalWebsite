@@ -23,6 +23,7 @@ function App() {
                         <Portfolio />
                     </FadeIn>
                     <FadeIn>
+                    <Title className="mb-4">Timeline</Title>
                         <Timeline />
                     </FadeIn>
                     <FadeIn>
