@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const TypingAnimation = ({ onComplete }) => {
   const [displayText, setDisplayText] = useState('');
   const message = "Hii! It's nice to meet you!";
-  const typingSpeed = 50; // Adjust this for typing speed (ms)
+  const typingSpeed = 100; // Adjust this for typing speed (ms)
 
   useEffect(() => {
     let index = 0;
