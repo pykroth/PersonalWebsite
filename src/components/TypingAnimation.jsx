@@ -30,7 +30,7 @@ const TypingAnimation = ({ onComplete }) => {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-green-50 text-stone-900 dark:text-stone-300">
       <h1 className="text-3xl font-bold typing-text">{displayText}</h1>
-        <img src="/assets/temp.gif" alt="Loading GIF" className="mb-4" />
+        <img src="/assets/temp1.gif" alt="Loading GIF" className="h-24 mb-4" />
     </div>
   );
 };
